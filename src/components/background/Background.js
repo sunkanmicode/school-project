@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import './background.css'
 import { pictures } from './data'
 
@@ -30,6 +31,16 @@ export default function Background() {
                 <div className='bgDotIcon'></div>
                 <div className='bgDotIcon'></div>
             </div>
+            <div className='box'>
+                <div className='boxText'>
+                    <h1>School name international</h1>
+                </div>
+            </div>
+            <button className='bgBtn'>
+                <Link to='/dashboard'>
+                    Read More
+                </Link> 
+            </button>
         </div>
     )
 }
