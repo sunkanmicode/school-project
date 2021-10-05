@@ -1,0 +1,26 @@
+nav {
+  /* width: 800px; */
+  padding: 10px;
+  color: #fff;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 500px; */
+  padding: 50px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav h1 {
+  cursor: pointer;
+}
+.logo {
+  font-size: 3rem;
+  /* border: 5px solid black; */
+  border-radius: 50%;
+  /* padding: 20px; */
+}

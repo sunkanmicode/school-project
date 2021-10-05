@@ -1,36 +1,14 @@
-import Footer from './pages/footer/Footer';
-import Home from './pages/home/Home';
-import Login from './pages/login/Login';
-import Register from './pages/register/Register';
-import {  Switch, Route, BrowserRouter } from 'react-router-dom'
-import Dashboard from './pages/dashboard/Dashboard';
+import React from "react";
+import Hero from "./pages/hero/Hero";
+import Nav from "./pages/nav/Nav";
+import "./app.css";
 
-
-
-function App() {
+const App = () => {
   return (
-    <>
-    <BrowserRouter>
-      <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route> 
-          <Route exact path='/register'>
-            <Register />
-          </Route>
-          <Route exact path='/login'>
-            <Login />
-          </Route>
-          <Route exact path='/dashboard'>
-            <Dashboard />
-          </Route>
-         
-      </Switch>
-      <Footer />
-    </BrowserRouter>
-      
-    </>
+    <div className="container">
+      <Nav />
+      <Hero />
+    </div>
   );
-}
-
+};
 export default App;

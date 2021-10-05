@@ -1,0 +1,34 @@
+.hero {
+  width: auto;
+}
+.heroHeader {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+.heroPara {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+.heroBtn {
+  width: 400px;
+  margin: auto;
+}
+.btn {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #3333;
+  color: #fff;
+  border-radius: 7px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}

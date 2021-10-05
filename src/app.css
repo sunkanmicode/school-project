@@ -1,0 +1,8 @@
+.container {
+  background: radial-gradient(rgba(0, 0, 0, 0.5), var(--pri-clr1)),
+    url(./img/sch1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: #333;
+}
